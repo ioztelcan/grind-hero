@@ -71,5 +71,4 @@ def bootstrap():
 
 if __name__ == "__main__":
     hero = bootstrap()
-    sys.exit(0)
     start(hero)
