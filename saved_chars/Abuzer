@@ -1,9 +1,106 @@
-attack: 20
-defense: 19
-exp: 1513.0
-hp: 199
-inventory: []
+attack: 14
+defense: 10
+exp: 1434.0
+exp_next_lvl: 3052.0
+hp: 135
+inventory:
+- !!python/object:objects.Item
+  adjective: bronze
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 8
+  name: badge
+  type: placeholder
+  value: 80
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 1
+  name: clip
+  type: placeholder
+  value: 10
+- !!python/object:objects.Item
+  adjective: sturdy
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 1
+  name: badge
+  type: placeholder
+  value: 10
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 1
+  name: vase
+  type: placeholder
+  value: 10
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 4
+  name: badge
+  type: placeholder
+  value: 40
+- !!python/object:objects.Item
+  adjective: shitty
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 9
+  name: scarf
+  type: placeholder
+  value: 90
+- !!python/object:objects.Item
+  adjective: leather
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 1
+  name: vase
+  type: placeholder
+  value: 10
+- !!python/object:objects.Item
+  adjective: leather
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 10
+  name: amulet
+  type: placeholder
+  value: 100
+- !!python/object:objects.Item
+  adjective: steel
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 6
+  name: scarf
+  type: placeholder
+  value: 60
+- !!python/object:objects.Item
+  adjective: sturdy
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 1
+  name: dice
+  type: placeholder
+  value: 10
+- !!python/object:objects.Item
+  adjective: silver
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 3
+  name: clip
+  type: placeholder
+  value: 30
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 2
+  name: dice
+  type: placeholder
+  value: 20
 lvl: 1
 name: Abuzer
 next_lvl: 2
-shitcoins: 100
+shitcoins: 1712

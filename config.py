@@ -1,2 +1,11 @@
 SAVE_LOCATION = "saved_chars/"
-TURN_SPEED = 0.5 # in seconds
+DATA_LOCATION = "data/"
+
+WEAPONS_LIST = DATA_LOCATION + "weapons"
+ARMOR_LIST = DATA_LOCATION + "armor"
+MOBS_LIST = DATA_LOCATION + "mobs"
+MOB_ADJ_LIST = DATA_LOCATION + "mob-adj"
+ITEMS_LIST = DATA_LOCATION + "items"
+ITEM_ADJ_LIST = DATA_LOCATION + "item-adj"
+
+TURN_SPEED = 0.1 # in seconds
