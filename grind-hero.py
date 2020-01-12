@@ -6,14 +6,6 @@ import argparse
 import yaml
 import curses
 
-# Group level up adjustments here.
-def level_up(hero):
-    print("Level up! {} -> {}".format(hero.lvl, hero.next_lvl))
-    hero.lvl = hero.next_lvl
-    hero.next_lvl = hero.next_lvl + 1
-    hero.exp_next_lvl = hero.exp + hero.next_lvl * 1000
-    hero.print_stats()       
-
 def encounter(hero):
     monster = chars.Mob(hero.lvl)
     print("Encountered a(n) {} {}!".format(monster.adjective, monster.name))
@@ -32,7 +24,9 @@ def encounter(hero):
     print("Earned {} experience.".format(monster.exp))
     hero.exp = monster.exp + hero.exp
     if (hero.exp >= hero.exp_next_lvl):
-        level_up(hero)
+        print("Level up! {} -> {}".format(hero.lvl, hero.next_lvl))
+        hero.level_up()
+    
     print("Looting corpse.")    
     hero.shitcoins = monster.shitcoins + hero.shitcoins
     print("{} shitcoins".format(monster.shitcoins), end="", flush=True)
@@ -68,6 +62,7 @@ def start(hero):
 def bootstrap():
     parser = argparse.ArgumentParser()
     parser.add_argument("-c", "--char", required=False, help="Character file that was saved before, if not provided, new one will be generated.")
+    parser.add_argument("-t", "--tui", type=bool, required=False, help="Launches text user interface if given.")
     args = parser.parse_args()
     if args.char == None:
         print("No saved character provided, generating a new hero...")
@@ -79,10 +74,17 @@ def bootstrap():
         hero = chars.Hero()
         hero.load_info(args.char)
 
+    if args.tui == True:
+        scr = tui.init()
+        tui.update_stats_panel(hero)
+        time.sleep(5)
+        scr.die()
+        sys.exit(0)
+
     def sigint_handler(sig, frame):
         print("\nSaving info, exiting game.")
         hero.save_info()
-        # de-init tui as well.
+        scr.die()
         sys.exit(0)
         
     # Register SIGINT handler for graceful termination.

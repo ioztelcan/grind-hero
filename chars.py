@@ -35,6 +35,16 @@ class Hero():
         info = self.__dict__
         with open(config.SAVE_LOCATION + self.name, 'w') as f:
             yaml.dump(info, f)
+    
+    def level_up(self):
+        self.exp_next_lvl = self.lvl * 1000 + self.next_lvl * 1000
+        self.lvl = self.next_lvl
+        self.next_lvl = self.next_lvl + 1
+        self.attack = self.attack + random.randint(5,10)
+        self.defense = self.defense + random.randint(5,10)
+        self.hp = self.hp + random.randint(10,30)
+        self.print_stats()       
+
 
 class Mob():
     def __init__(self, player_lvl):
@@ -48,7 +58,7 @@ class Mob():
         self.adjective = random.choice(list(open(config.MOB_ADJ_LIST))).strip("\n")
         self.lvl = max(1, random.randint(player_lvl - 5, player_lvl + 5))
         self.exp = 10 * self.lvl * util.modifier(player_lvl, self.lvl)
-        self.hp = random.randint(100,200)
+        self.hp = random.randint(50,200) * util.modifier(player_lvl, self.lvl) 
         self.shitcoins = int(self.lvl * util.modifier(player_lvl, self.lvl) + random.randint(0,10))
         self.loot_amount = random.randint(0,2)
         #self.attack = random.randint(10,20)
