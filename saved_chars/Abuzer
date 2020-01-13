@@ -1,90 +1,10 @@
-attack: 14
-defense: 10
-exp: 2940.0
-exp_next_lvl: 3052.0
-hp: 135
-inventory:
-- !!python/object:objects.Item
-  adjective: platinium
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 6
-  name: stone
-  type: placeholder
-  value: 60
-- !!python/object:objects.Item
-  adjective: gold
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 1
-  name: stone
-  type: placeholder
-  value: 10
-- !!python/object:objects.Item
-  adjective: leather
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 3
-  name: stone
-  type: placeholder
-  value: 30
-- !!python/object:objects.Item
-  adjective: platinium
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 4
-  name: dice
-  type: placeholder
-  value: 40
-- !!python/object:objects.Item
-  adjective: bronze
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 2
-  name: vase
-  type: placeholder
-  value: 20
-- !!python/object:objects.Item
-  adjective: shitty
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 1
-  name: dice
-  type: placeholder
-  value: 10
-- !!python/object:objects.Item
-  adjective: platinium
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 1
-  name: stone
-  type: placeholder
-  value: 10
-- !!python/object:objects.Item
-  adjective: leather
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 1
-  name: stone
-  type: placeholder
-  value: 10
-- !!python/object:objects.Item
-  adjective: iron
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 1
-  name: bucket
-  type: placeholder
-  value: 10
-- !!python/object:objects.Item
-  adjective: silver
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 1
-  name: ring
-  type: placeholder
-  value: 10
-lvl: 1
+attack: 25
+defense: 21
+exp: 4110.0
+exp_next_lvl: 5000
+hp: 191
+inventory: []
+lvl: 3
 name: Abuzer
-next_lvl: 2
-shitcoins: 4016
+next_lvl: 4
+shitcoins: 5518

@@ -43,8 +43,6 @@ class Hero():
         self.attack = self.attack + random.randint(5,10)
         self.defense = self.defense + random.randint(5,10)
         self.hp = self.hp + random.randint(10,30)
-        self.print_stats()       
-
 
 class Mob():
     def __init__(self, player_lvl):

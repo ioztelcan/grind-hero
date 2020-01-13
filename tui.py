@@ -2,7 +2,12 @@ import curses
 import os, sys
 import time
 
+scr = None
 stats_panel = None
+equipped_panel = None
+inventory_panel = None
+log_panel = None
+progress_panel = None
 
 class Screen():
 
@@ -21,7 +26,10 @@ class Screen():
         self.half_w = int(self.width // 2)
         self.quarter_h = int(self.height // 4)
         self.half_h = int(self.height // 2)
-        self.stdscr.addstr(self.height - 1, 0, "GRIND HERO v0.0.1 - Welcome to the grind yo.")
+        self.refresh()
+
+    def write(self, row, col, string):
+        self.stdscr.addstr(row, col, string)
         self.refresh()
 
     def die(self):
@@ -68,7 +76,8 @@ class Panel():
         self.refresh()
 
 
-def init(): 
+def init():
+    global scr
     scr = Screen()
     
     # Start colors in curses
@@ -77,34 +86,30 @@ def init():
     curses.init_pair(2, curses.COLOR_RED, curses.COLOR_BLACK)
     curses.init_pair(3, curses.COLOR_BLACK, curses.COLOR_WHITE)
 
+    curses.curs_set(False)
+
+    scr.stdscr.attron(curses.color_pair(3))
+    scr.write(scr.height - 1, 0, "GRIND HERO v0.0.1 - Welcome to the grind yo.")
+    # Trick to fill whitespace for the rest of the bar.
+    #stdscr.addstr(height-1, len(statusbarstr), " " * (width - len(statusbarstr) - 1))
+    scr.stdscr.attroff(curses.color_pair(3))
+    
     global stats_panel
-    stats_panel = create_stats_panel(scr)
-    create_equipped_panel(scr)
-    create_inventory_panel(scr)
-    create_log_panel(scr)
-    create_progress_panel(scr)
+    stats_panel = Panel(scr.height - 7, scr.quarter_w, scr.start_y, scr.start_x, "STATS")
+
+    global equipped_panel
+    equipped_panel = Panel(scr.height - 7, scr.quarter_w, scr.start_y, scr.start_x + scr.quarter_w, "EQUIPPED")
+
+    global inventory_panel
+    inventory_panel = Panel(scr.height - 1, scr.half_w, scr.start_y, scr.start_x + scr.half_w, "INVENTORY")
+    
+    global log_panel
+    log_panel = Panel(3, scr.half_w, scr.height - 7, scr.start_x, "")
+   
+    global progress_panel
+    progress_panel = Panel(3, scr.half_w, scr.height - 4, scr.start_x, "")
     
     return scr
-
-def create_stats_panel(screen):
-    p = Panel(screen.height - 7, screen.quarter_w, screen.start_y, screen.start_x, "STATS")
-    return p
-
-def create_equipped_panel(screen):
-    p = Panel(screen.height - 7, screen.quarter_w, screen.start_y, screen.start_x + screen.quarter_w, "EQUIPPED")
-    return p
-
-def create_inventory_panel(screen):
-    p = Panel(screen.height - 1, screen.half_w, screen.start_y, screen.start_x + screen.half_w, "INVENTORY")
-    return p
-
-def create_log_panel(screen):
-    p = Panel(3, screen.half_w, screen.height - 7, screen.start_x, "")
-    return p
-
-def create_progress_panel(screen):    
-    p = Panel(3, screen.half_w, screen.height - 4, screen.start_x, "")
-    return p
 
 def update_stats_panel(hero):
     stats_panel.write(stats_panel.start_row,stats_panel.start_col,"HERO: {}".format(hero.name))
@@ -113,50 +118,20 @@ def update_stats_panel(hero):
     stats_panel.write(stats_panel.start_row + 3,stats_panel.start_col,"DEF: {}".format(hero.defense))
     stats_panel.write(stats_panel.start_row + 4,stats_panel.start_col,"NEXT_LVL: {}/{} ".format(hero.exp, hero.exp_next_lvl))
     
+def log(string):
+    # Write to a log file.
+    # Write to log panel.
+    log_panel.clear()
+    log_panel.write(log_panel.start_row, log_panel.start_col, string)
 
-def init_tui():
-    # Initialize curses settings.
-    stdscr = curses.initscr()
-    curses.noecho()
-    curses.cbreak()
-    stdscr.keypad(True)
-
-    # Clear and refresh the screen for a blank canvas
-    stdscr.clear()
-    stdscr.refresh()
-
-       
-    height, width = stdscr.getmaxyx()
-
-    start_x = 0
-    start_y = 0
-    quarter_w = int(width // 4)
-    half_w = int(width // 2)
-    quarter_h = int(height // 4)
-    half_h = int(height // 2)
-
-    # lines, columns, start line, start column
-    char_stats_w = Panel(half_h, quarter_w, start_y, start_x)
-    char_stats_w.refresh()
-    char_stats_w.view.addstr(char_stats_w.start_row,char_stats_w.start_col,"My string")
-    char_stats_w.refresh()
-    #return
-
-    win2 = curses.newwin(half_h, quarter_w, start_y, start_x + quarter_w)
-    win2.border()
-    win2.refresh()
-
-    win3= curses.newwin(half_h, half_w, start_y, start_x + half_w)
-    win3.border()
-    win3.refresh()
-
-    win4 = curses.newwin(half_h, half_w, start_y + half_h, start_x)
-    win4.border()
-    win4.refresh()
-
-    win5 = curses.newwin(half_h, half_w, start_y + half_h, start_x + half_w)
-    win5.border()
-    win5.refresh()
+def run_progress_bar(speed):
+    progress_panel.clear()
+    i = 0
+    for i in range(progress_panel.cols - 2):
+        progress_panel.view.attron(curses.color_pair(3))
+        progress_panel.write(progress_panel.start_row, progress_panel.start_col + i, " ")
+        progress_panel.view.attroff(curses.color_pair(3))
+        time.sleep(speed)
 
 
 #s = init()

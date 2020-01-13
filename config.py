@@ -8,4 +8,4 @@ MOB_ADJ_LIST = DATA_LOCATION + "mob-adj"
 ITEMS_LIST = DATA_LOCATION + "items"
 ITEM_ADJ_LIST = DATA_LOCATION + "item-adj"
 
-TURN_SPEED = 0.1 # in seconds
+TURN_SPEED = 0.05 # in seconds
