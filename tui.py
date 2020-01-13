@@ -115,10 +115,10 @@ def update_stats_panel(hero):
     #Write line by line like a caveman because why not
     stats_panel.write(stats_panel.start_row,stats_panel.start_col,"{}  |  Lvl {}".format(hero.name, hero.lvl))
     stats_panel.write(stats_panel.start_row + 1,stats_panel.start_col,"-" * (stats_panel.cols - 2))
-    stats_panel.write(stats_panel.start_row + 2,stats_panel.start_col,"HP: {}".format(hero.hp))
-    stats_panel.write(stats_panel.start_row + 3,stats_panel.start_col,"ATT: {}".format(hero.attack))
-    stats_panel.write(stats_panel.start_row + 4,stats_panel.start_col,"DEF: {}".format(hero.defense))
-    stats_panel.write(stats_panel.start_row + 5,stats_panel.start_col,"NEXT_LVL: {}/{} ".format(hero.exp, hero.exp_next_lvl))
+    stats_panel.write(stats_panel.start_row + 2,stats_panel.start_col,"Experience: {}/{} ".format(hero.exp, hero.exp_next_lvl))
+    stats_panel.write(stats_panel.start_row + 3,stats_panel.start_col,"HP: {}".format(hero.hp))
+    stats_panel.write(stats_panel.start_row + 4,stats_panel.start_col,"ATT: {}".format(hero.attack))
+    stats_panel.write(stats_panel.start_row + 5,stats_panel.start_col,"DEF: {}".format(hero.defense))
    
 def update_inventory_panel(hero):
     inventory_panel.clear()
