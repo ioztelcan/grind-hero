@@ -24,18 +24,21 @@ def encounter(hero):
     
     #tui.log("Defeated the {} {}!".format(monster.adjective, monster.name))
     #tui.log("Earned {} experience.".format(monster.exp))
-    hero.exp = monster.exp + hero.exp
+    hero.exp = int(monster.exp + hero.exp)
     if (hero.exp >= hero.exp_next_lvl):
         tui.log("Level up! {} -> {}".format(hero.lvl, hero.next_lvl))
         hero.level_up()
+    tui.update_stats_panel(hero)
     
     tui.log("Looting corpse.")
     tui.run_progress_bar(config.TURN_SPEED / 3)
     hero.shitcoins = monster.shitcoins + hero.shitcoins
+    tui.update_inventory_panel(hero)
     #print("{} shitcoins".format(monster.shitcoins), end="", flush=True)
     for i in range(monster.loot_amount):
         loot = objects.Item(monster.lvl)
         hero.inventory.append(loot)
+        tui.update_inventory_panel(hero)
         #print(", {} {}".format(loot.adjective, loot.name), end="", flush=True)
     #print("")
 
@@ -51,11 +54,14 @@ def go_to_dungeon(hero):
 def go_to_town(hero):
     tui.log("Going to town to sell the loot.")
     tui.run_progress_bar(config.TURN_SPEED)
-    for item in hero.inventory:
+    temp_inv = hero.inventory.copy()
+    for item in temp_inv:
         tui.log("Selling {} {}.".format(item.adjective, item.name))
         hero.shitcoins = hero.shitcoins + item.value
+        hero.inventory.remove(item)
         tui.run_progress_bar(config.TURN_SPEED / 3)
-    hero.inventory = []
+        tui.update_inventory_panel(hero)
+    #hero.inventory = []
 
 def start(hero):
     while True:
@@ -81,6 +87,7 @@ def bootstrap():
     if args.tui == True:
         scr = tui.init()
         tui.update_stats_panel(hero)
+        tui.update_inventory_panel(hero)
 
     def sigint_handler(sig, frame):
         tui.log("Saving info, exiting game.")

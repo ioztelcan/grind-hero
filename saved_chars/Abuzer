@@ -1,10 +1,114 @@
-attack: 25
-defense: 21
-exp: 4110.0
-exp_next_lvl: 5000
-hp: 191
-inventory: []
-lvl: 3
+attack: 429
+defense: 465
+exp: 120277.0
+exp_next_lvl: 121000
+hp: 1414
+inventory:
+- !!python/object:objects.Item
+  adjective: cloth
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 60
+  name: scarf
+  type: placeholder
+  value: 600
+- !!python/object:objects.Item
+  adjective: steel
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 55
+  name: amulet
+  type: placeholder
+  value: 550
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 51
+  name: badge
+  type: placeholder
+  value: 510
+- !!python/object:objects.Item
+  adjective: silver
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 61
+  name: stone
+  type: placeholder
+  value: 610
+- !!python/object:objects.Item
+  adjective: gold
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 66
+  name: ring
+  type: placeholder
+  value: 660
+- !!python/object:objects.Item
+  adjective: steel
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 58
+  name: amulet
+  type: placeholder
+  value: 580
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 65
+  name: bucket
+  type: placeholder
+  value: 650
+- !!python/object:objects.Item
+  adjective: steel
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 60
+  name: amulet
+  type: placeholder
+  value: 600
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 67
+  name: scarf
+  type: placeholder
+  value: 670
+- !!python/object:objects.Item
+  adjective: steel
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 67
+  name: screw
+  type: placeholder
+  value: 670
+- !!python/object:objects.Item
+  adjective: sturdy
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 62
+  name: screw
+  type: placeholder
+  value: 620
+- !!python/object:objects.Item
+  adjective: bronze
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 55
+  name: screw
+  type: placeholder
+  value: 550
+- !!python/object:objects.Item
+  adjective: gold
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 66
+  name: stone
+  type: placeholder
+  value: 660
+lvl: 61
 name: Abuzer
-next_lvl: 4
-shitcoins: 5518
+next_lvl: 62
+shitcoins: 123999

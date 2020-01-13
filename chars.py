@@ -37,9 +37,9 @@ class Hero():
             yaml.dump(info, f)
     
     def level_up(self):
-        self.exp_next_lvl = self.lvl * 1000 + self.next_lvl * 1000
         self.lvl = self.next_lvl
         self.next_lvl = self.next_lvl + 1
+        self.exp_next_lvl = int((self.exp - self.exp % 1000) + self.next_lvl * 1000)
         self.attack = self.attack + random.randint(5,10)
         self.defense = self.defense + random.randint(5,10)
         self.hp = self.hp + random.randint(10,30)

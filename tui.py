@@ -112,12 +112,24 @@ def init():
     return scr
 
 def update_stats_panel(hero):
-    stats_panel.write(stats_panel.start_row,stats_panel.start_col,"HERO: {}".format(hero.name))
-    stats_panel.write(stats_panel.start_row + 1,stats_panel.start_col,"HP: {}".format(hero.hp))
-    stats_panel.write(stats_panel.start_row + 2,stats_panel.start_col,"ATT: {}".format(hero.attack))
-    stats_panel.write(stats_panel.start_row + 3,stats_panel.start_col,"DEF: {}".format(hero.defense))
-    stats_panel.write(stats_panel.start_row + 4,stats_panel.start_col,"NEXT_LVL: {}/{} ".format(hero.exp, hero.exp_next_lvl))
-    
+    #Write line by line like a caveman because why not
+    stats_panel.write(stats_panel.start_row,stats_panel.start_col,"{}  |  Lvl {}".format(hero.name, hero.lvl))
+    stats_panel.write(stats_panel.start_row + 1,stats_panel.start_col,"-" * (stats_panel.cols - 2))
+    stats_panel.write(stats_panel.start_row + 2,stats_panel.start_col,"HP: {}".format(hero.hp))
+    stats_panel.write(stats_panel.start_row + 3,stats_panel.start_col,"ATT: {}".format(hero.attack))
+    stats_panel.write(stats_panel.start_row + 4,stats_panel.start_col,"DEF: {}".format(hero.defense))
+    stats_panel.write(stats_panel.start_row + 5,stats_panel.start_col,"NEXT_LVL: {}/{} ".format(hero.exp, hero.exp_next_lvl))
+   
+def update_inventory_panel(hero):
+    inventory_panel.clear()
+    inventory_panel.write(inventory_panel.start_row,inventory_panel.start_col,"{} shitcoins".format(hero.shitcoins))
+    inventory_panel.write(inventory_panel.start_row + 1,inventory_panel.start_col,"-" * (inventory_panel.cols - 2))
+    i = 1
+    for item in hero.inventory:
+        inventory_panel.write(inventory_panel.start_row + 1 + i,inventory_panel.start_col,"{} {}".format(item.adjective, item.name))
+        i = i + 1
+
+
 def log(string):
     # Write to a log file.
     # Write to log panel.
