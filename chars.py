@@ -22,6 +22,10 @@ class Hero():
         self.shitcoins = 0
         self.inventory = []
 
+        self.helm = None
+        self.weapon = None
+        self.armor = None
+        
     def print_stats(self):
         print ("Name: {}".format(self.name))
         print ("Lvl: {}".format(self.lvl))
@@ -45,22 +49,26 @@ class Hero():
         self.hp = self.hp + random.randint(10,30)
 
 class Mob():
-    def __init__(self, player_lvl):
-        
-        # Generate a new monster
-        self._generate_new(player_lvl)
-
-    def _generate_new(self, player_lvl):
+    def __init__(self, player_lvl): 
         random.seed()
         self.name = random.choice(list(open(config.MOBS_LIST))).strip("\n")
         self.adjective = random.choice(list(open(config.MOB_ADJ_LIST))).strip("\n")
-        self.lvl = max(1, random.randint(player_lvl - 5, player_lvl + 5))
-        self.exp = 10 * self.lvl * util.modifier(player_lvl, self.lvl)
-        self.hp = random.randint(50,200) * util.modifier(player_lvl, self.lvl) 
-        self.shitcoins = int(self.lvl * util.modifier(player_lvl, self.lvl) + random.randint(0,10))
-        self.loot_amount = random.randint(0,2)
-        #self.attack = random.randint(10,20)
-        self.defense = random.randint(10,20)
+        self._generate_stats(player_lvl)
 
-    
+    def _generate_stats(self, player_lvl):
+        self.lvl = max(1, random.randint(player_lvl - 5, player_lvl + 5))
+        self.exp = int((self.lvl + random.randint(1,self.lvl)) * util.modifier(player_lvl, self.lvl))
+        self.shitcoins = int(util.modifier(player_lvl, self.lvl) * random.randint(0,5))
+        self.loot_amount = random.randint(0,2)
+        #self.hp = random.randint(50,200) * util.modifier(player_lvl, self.lvl) 
+        #self.attack = random.randint(10,20)
+        #self.defense = random.randint(10,20)
+
+class Elite(Mob):
+    def __init__(self):
+        pass
+
+class Boss(Mob):
+    def __init__(self):
+        pass
 

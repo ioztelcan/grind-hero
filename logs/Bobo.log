@@ -1,0 +1,694 @@
+2020-01-14 13:53:20,601|INFO|Going to a dungeon.
+2020-01-14 13:53:25,241|INFO|Looking for monsters to pick a fight with.
+2020-01-14 13:53:29,930|INFO|Executing a(n) red turtle!
+2020-01-14 13:53:29,930|DEBUG|lvl:1 exp:1 sc:2
+2020-01-14 13:53:34,149|DEBUG|Earned 1 experience.
+2020-01-14 13:53:34,154|INFO|Looting corpse.
+2020-01-14 13:53:35,720|DEBUG|- 2 shitcoins
+2020-01-14 13:53:35,726|DEBUG|- silver stone lvl:5 val:50
+2020-01-14 13:53:35,781|INFO|Executing a(n) strong lawyer!
+2020-01-14 13:53:35,781|DEBUG|lvl:4 exp:5 sc:4
+2020-01-14 13:53:39,097|DEBUG|Earned 5 experience.
+2020-01-14 13:53:39,103|INFO|Looting corpse.
+2020-01-14 13:53:40,666|DEBUG|- 4 shitcoins
+2020-01-14 13:53:40,671|DEBUG|- bronze scarf lvl:4 val:40
+2020-01-14 13:53:40,727|INFO|Executing a(n) weak security guard!
+2020-01-14 13:53:40,727|DEBUG|lvl:1 exp:1 sc:4
+2020-01-14 13:53:44,942|DEBUG|Earned 1 experience.
+2020-01-14 13:53:44,948|INFO|Looting corpse.
+2020-01-14 13:53:46,513|DEBUG|- 4 shitcoins
+2020-01-14 13:53:46,568|INFO|Executing a(n) malnourished zebra!
+2020-01-14 13:53:46,568|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:53:50,784|DEBUG|Earned 1 experience.
+2020-01-14 13:53:50,789|INFO|Looting corpse.
+2020-01-14 13:53:52,358|DEBUG|- 5 shitcoins
+2020-01-14 13:53:52,364|DEBUG|- leather stone lvl:1 val:10
+2020-01-14 13:53:52,369|DEBUG|- silver scarf lvl:3 val:30
+2020-01-14 13:53:52,424|INFO|Executing a(n) malnourished security guard!
+2020-01-14 13:53:52,424|DEBUG|lvl:1 exp:1 sc:1
+2020-01-14 13:53:56,640|DEBUG|Earned 1 experience.
+2020-01-14 13:53:56,646|INFO|Looting corpse.
+2020-01-14 13:53:58,215|DEBUG|- 1 shitcoins
+2020-01-14 13:53:58,220|DEBUG|- leather scarf lvl:1 val:10
+2020-01-14 13:53:58,225|DEBUG|- cloth scarf lvl:1 val:10
+2020-01-14 13:53:58,280|INFO|Executing a(n) weak demon!
+2020-01-14 13:53:58,280|DEBUG|lvl:1 exp:1 sc:4
+2020-01-14 13:54:02,486|DEBUG|Earned 1 experience.
+2020-01-14 13:54:02,489|INFO|Looting corpse.
+2020-01-14 13:54:04,058|DEBUG|- 4 shitcoins
+2020-01-14 13:54:04,066|DEBUG|- leather bucket lvl:3 val:30
+2020-01-14 13:54:04,074|DEBUG|- iron vase lvl:5 val:50
+2020-01-14 13:54:04,132|INFO|Executing a(n) huge security guard!
+2020-01-14 13:54:04,133|DEBUG|lvl:1 exp:1 sc:3
+2020-01-14 13:54:08,347|DEBUG|Earned 1 experience.
+2020-01-14 13:54:08,352|INFO|Looting corpse.
+2020-01-14 13:54:09,916|DEBUG|- 3 shitcoins
+2020-01-14 13:54:09,972|INFO|Executing a(n) malnourished turtle!
+2020-01-14 13:54:09,972|DEBUG|lvl:3 exp:3 sc:1
+2020-01-14 13:54:13,539|DEBUG|Earned 3 experience.
+2020-01-14 13:54:13,540|INFO|Looting corpse.
+2020-01-14 13:54:15,104|DEBUG|- 1 shitcoins
+2020-01-14 13:54:15,110|DEBUG|- gold badge lvl:1 val:10
+2020-01-14 13:54:15,166|INFO|Executing a(n) weak lawyer!
+2020-01-14 13:54:15,166|DEBUG|lvl:4 exp:5 sc:7
+2020-01-14 13:54:18,481|DEBUG|Earned 5 experience.
+2020-01-14 13:54:18,489|INFO|Looting corpse.
+2020-01-14 13:54:20,061|DEBUG|- 7 shitcoins
+2020-01-14 13:54:20,070|DEBUG|- iron stone lvl:1 val:10
+2020-01-14 13:54:20,123|INFO|Executing a(n) small cockroach!
+2020-01-14 13:54:20,123|DEBUG|lvl:1 exp:1 sc:3
+2020-01-14 13:54:24,334|DEBUG|Earned 1 experience.
+2020-01-14 13:54:24,337|INFO|Looting corpse.
+2020-01-14 13:54:25,897|DEBUG|- 3 shitcoins
+2020-01-14 13:54:25,899|DEBUG|- leather stone lvl:3 val:30
+2020-01-14 13:54:25,901|DEBUG|- shitty clip lvl:1 val:10
+2020-01-14 13:54:25,953|INFO|Executing a(n) weak turtle!
+2020-01-14 13:54:25,953|DEBUG|lvl:3 exp:3 sc:6
+2020-01-14 13:54:29,520|DEBUG|Earned 3 experience.
+2020-01-14 13:54:29,525|INFO|Looting corpse.
+2020-01-14 13:54:31,090|DEBUG|- 6 shitcoins
+2020-01-14 13:54:31,092|DEBUG|- platinium clip lvl:1 val:10
+2020-01-14 13:54:31,150|INFO|Executing a(n) big lawyer!
+2020-01-14 13:54:31,150|DEBUG|lvl:4 exp:5 sc:4
+2020-01-14 13:54:34,472|DEBUG|Earned 5 experience.
+2020-01-14 13:54:34,477|INFO|Looting corpse.
+2020-01-14 13:54:36,049|DEBUG|- 4 shitcoins
+2020-01-14 13:54:36,051|DEBUG|- steel amulet lvl:6 val:60
+2020-01-14 13:54:36,053|DEBUG|- gold stone lvl:1 val:10
+2020-01-14 13:54:36,108|INFO|Executing a(n) weak lawyer!
+2020-01-14 13:54:36,108|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:54:40,323|DEBUG|Earned 1 experience.
+2020-01-14 13:54:40,329|INFO|Looting corpse.
+2020-01-14 13:54:41,902|DEBUG|- 5 shitcoins
+2020-01-14 13:54:41,910|DEBUG|- iron amulet lvl:5 val:50
+2020-01-14 13:54:41,966|INFO|Executing a(n) tiny turtle!
+2020-01-14 13:54:41,966|DEBUG|lvl:1 exp:1 sc:3
+2020-01-14 13:54:46,182|DEBUG|Earned 1 experience.
+2020-01-14 13:54:46,187|INFO|Looting corpse.
+2020-01-14 13:54:47,756|DEBUG|- 3 shitcoins
+2020-01-14 13:54:47,765|DEBUG|- cloth vase lvl:1 val:10
+2020-01-14 13:54:47,823|INFO|Executing a(n) malnourished zebra!
+2020-01-14 13:54:47,823|DEBUG|lvl:1 exp:1 sc:4
+2020-01-14 13:54:52,042|DEBUG|Earned 1 experience.
+2020-01-14 13:54:52,047|INFO|Looting corpse.
+2020-01-14 13:54:53,611|DEBUG|- 4 shitcoins
+2020-01-14 13:54:53,617|DEBUG|- gold dice lvl:4 val:40
+2020-01-14 13:54:53,673|INFO|Executing a(n) small lawyer!
+2020-01-14 13:54:53,673|DEBUG|lvl:1 exp:1 sc:3
+2020-01-14 13:54:57,881|DEBUG|Earned 1 experience.
+2020-01-14 13:54:57,883|INFO|Looting corpse.
+2020-01-14 13:54:59,444|DEBUG|- 3 shitcoins
+2020-01-14 13:54:59,451|DEBUG|- platinium clip lvl:1 val:10
+2020-01-14 13:54:59,456|DEBUG|- bronze vase lvl:1 val:10
+2020-01-14 13:54:59,460|INFO|Going to town to sell the loot.
+2020-01-14 13:55:04,088|INFO|Selling silver stone.
+2020-01-14 13:55:05,646|INFO|Selling bronze scarf.
+2020-01-14 13:55:07,213|INFO|Selling leather stone.
+2020-01-14 13:55:08,774|INFO|Selling silver scarf.
+2020-01-14 13:55:10,344|INFO|Selling leather scarf.
+2020-01-14 13:55:11,916|INFO|Selling cloth scarf.
+2020-01-14 13:55:13,485|INFO|Selling leather bucket.
+2020-01-14 13:55:15,056|INFO|Selling iron vase.
+2020-01-14 13:55:16,627|INFO|Selling gold badge.
+2020-01-14 13:55:18,193|INFO|Selling iron stone.
+2020-01-14 13:55:19,762|INFO|Selling leather stone.
+2020-01-14 13:55:21,335|INFO|Selling shitty clip.
+2020-01-14 13:55:22,909|INFO|Selling platinium clip.
+2020-01-14 13:55:24,474|INFO|Selling steel amulet.
+2020-01-14 13:55:26,043|INFO|Selling gold stone.
+2020-01-14 13:55:27,614|INFO|Selling iron amulet.
+2020-01-14 13:55:29,182|INFO|Selling cloth vase.
+2020-01-14 13:55:30,746|INFO|Selling gold dice.
+2020-01-14 13:55:32,316|INFO|Selling platinium clip.
+2020-01-14 13:55:33,889|INFO|Selling bronze vase.
+2020-01-14 13:55:35,452|INFO|Going to a dungeon.
+2020-01-14 13:55:40,079|INFO|Looking for monsters to pick a fight with.
+2020-01-14 13:55:44,762|INFO|Executing a(n) big lawyer!
+2020-01-14 13:55:44,762|DEBUG|lvl:1 exp:1 sc:1
+2020-01-14 13:55:48,977|DEBUG|Earned 1 experience.
+2020-01-14 13:55:48,982|INFO|Looting corpse.
+2020-01-14 13:55:50,547|DEBUG|- 1 shitcoins
+2020-01-14 13:55:50,552|DEBUG|- steel stone lvl:3 val:30
+2020-01-14 13:55:50,557|DEBUG|- iron clip lvl:1 val:10
+2020-01-14 13:55:50,612|INFO|Executing a(n) malnourished cockroach!
+2020-01-14 13:55:50,613|DEBUG|lvl:1 exp:1 sc:0
+2020-01-14 13:55:54,827|DEBUG|Earned 1 experience.
+2020-01-14 13:55:54,834|INFO|Looting corpse.
+2020-01-14 13:55:56,410|DEBUG|- 0 shitcoins
+2020-01-14 13:55:56,418|DEBUG|- bronze vase lvl:1 val:10
+2020-01-14 13:55:56,475|INFO|Executing a(n) malnourished zebra!
+2020-01-14 13:55:56,476|DEBUG|lvl:1 exp:1 sc:3
+2020-01-14 13:56:00,694|DEBUG|Earned 1 experience.
+2020-01-14 13:56:00,699|INFO|Looting corpse.
+2020-01-14 13:56:02,263|DEBUG|- 3 shitcoins
+2020-01-14 13:56:02,273|DEBUG|- platinium dice lvl:3 val:30
+2020-01-14 13:56:02,331|INFO|Executing a(n) huge imp!
+2020-01-14 13:56:02,331|DEBUG|lvl:4 exp:5 sc:5
+2020-01-14 13:56:05,649|DEBUG|Earned 5 experience.
+2020-01-14 13:56:05,655|INFO|Looting corpse.
+2020-01-14 13:56:07,223|DEBUG|- 5 shitcoins
+2020-01-14 13:56:07,225|DEBUG|- platinium clip lvl:6 val:60
+2020-01-14 13:56:07,226|DEBUG|- bronze dice lvl:6 val:60
+2020-01-14 13:56:07,281|INFO|Executing a(n) strong imp!
+2020-01-14 13:56:07,282|DEBUG|lvl:1 exp:1 sc:0
+2020-01-14 13:56:11,496|DEBUG|Earned 1 experience.
+2020-01-14 13:56:11,501|INFO|Looting corpse.
+2020-01-14 13:56:13,073|DEBUG|- 0 shitcoins
+2020-01-14 13:56:13,128|INFO|Executing a(n) malnourished imp!
+2020-01-14 13:56:13,129|DEBUG|lvl:5 exp:7 sc:1
+2020-01-14 13:56:16,227|DEBUG|Earned 7 experience.
+2020-01-14 13:56:16,231|INFO|Looting corpse.
+2020-01-14 13:56:17,799|DEBUG|- 1 shitcoins
+2020-01-14 13:56:17,854|INFO|Executing a(n) huge zombie!
+2020-01-14 13:56:17,854|DEBUG|lvl:1 exp:1 sc:2
+2020-01-14 13:56:22,067|DEBUG|Earned 1 experience.
+2020-01-14 13:56:22,069|INFO|Looting corpse.
+2020-01-14 13:56:23,637|DEBUG|- 2 shitcoins
+2020-01-14 13:56:23,695|INFO|Executing a(n) strong skeleton!
+2020-01-14 13:56:23,695|DEBUG|lvl:3 exp:3 sc:5
+2020-01-14 13:56:27,269|DEBUG|Earned 3 experience.
+2020-01-14 13:56:27,275|INFO|Looting corpse.
+2020-01-14 13:56:28,847|DEBUG|- 5 shitcoins
+2020-01-14 13:56:28,855|DEBUG|- cloth vase lvl:7 val:70
+2020-01-14 13:56:28,913|INFO|Executing a(n) red demon!
+2020-01-14 13:56:28,913|DEBUG|lvl:1 exp:1 sc:0
+2020-01-14 13:56:33,131|DEBUG|Earned 1 experience.
+2020-01-14 13:56:33,136|INFO|Looting corpse.
+2020-01-14 13:56:34,702|DEBUG|- 0 shitcoins
+2020-01-14 13:56:34,708|DEBUG|- iron screw lvl:1 val:10
+2020-01-14 13:56:34,715|DEBUG|- iron vase lvl:5 val:50
+2020-01-14 13:56:34,773|INFO|Executing a(n) malnourished lawyer!
+2020-01-14 13:56:34,773|DEBUG|lvl:1 exp:1 sc:0
+2020-01-14 13:56:38,983|DEBUG|Earned 1 experience.
+2020-01-14 13:56:38,988|INFO|Looting corpse.
+2020-01-14 13:56:40,556|DEBUG|- 0 shitcoins
+2020-01-14 13:56:40,561|DEBUG|- shitty vase lvl:5 val:50
+2020-01-14 13:56:40,617|INFO|Executing a(n) weak rat!
+2020-01-14 13:56:40,618|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:56:44,833|DEBUG|Earned 1 experience.
+2020-01-14 13:56:44,838|INFO|Looting corpse.
+2020-01-14 13:56:46,412|DEBUG|- 5 shitcoins
+2020-01-14 13:56:46,468|INFO|Executing a(n) big skeleton!
+2020-01-14 13:56:46,468|DEBUG|lvl:4 exp:5 sc:7
+2020-01-14 13:56:49,780|DEBUG|Earned 5 experience.
+2020-01-14 13:56:49,787|INFO|Looting corpse.
+2020-01-14 13:56:51,359|DEBUG|- 7 shitcoins
+2020-01-14 13:56:51,365|DEBUG|- cloth dice lvl:1 val:10
+2020-01-14 13:56:51,420|INFO|Executing a(n) malnourished rat!
+2020-01-14 13:56:51,420|DEBUG|lvl:2 exp:2 sc:1
+2020-01-14 13:56:55,285|DEBUG|Earned 2 experience.
+2020-01-14 13:56:55,290|INFO|Looting corpse.
+2020-01-14 13:56:56,860|DEBUG|- 1 shitcoins
+2020-01-14 13:56:56,915|INFO|Executing a(n) huge rat!
+2020-01-14 13:56:56,916|DEBUG|lvl:5 exp:7 sc:3
+2020-01-14 13:57:00,016|DEBUG|Earned 7 experience.
+2020-01-14 13:57:00,021|INFO|Looting corpse.
+2020-01-14 13:57:01,589|DEBUG|- 3 shitcoins
+2020-01-14 13:57:01,595|DEBUG|- silver scarf lvl:3 val:30
+2020-01-14 13:57:01,650|INFO|Executing a(n) malnourished zebra!
+2020-01-14 13:57:01,650|DEBUG|lvl:1 exp:1 sc:2
+2020-01-14 13:57:05,865|DEBUG|Earned 1 experience.
+2020-01-14 13:57:05,870|INFO|Looting corpse.
+2020-01-14 13:57:07,439|DEBUG|- 2 shitcoins
+2020-01-14 13:57:07,445|DEBUG|- sturdy scarf lvl:1 val:10
+2020-01-14 13:57:07,450|DEBUG|- cloth ring lvl:2 val:20
+2020-01-14 13:57:07,505|INFO|Executing a(n) red skeleton!
+2020-01-14 13:57:07,506|DEBUG|lvl:5 exp:7 sc:1
+2020-01-14 13:57:10,606|DEBUG|Earned 7 experience.
+2020-01-14 13:57:10,610|INFO|Looting corpse.
+2020-01-14 13:57:12,179|DEBUG|- 1 shitcoins
+2020-01-14 13:57:12,181|DEBUG|- bronze amulet lvl:1 val:10
+2020-01-14 13:57:12,182|DEBUG|- cloth screw lvl:9 val:90
+2020-01-14 13:57:12,238|INFO|Executing a(n) stinky turtle!
+2020-01-14 13:57:12,238|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:57:16,454|DEBUG|Earned 1 experience.
+2020-01-14 13:57:16,459|INFO|Looting corpse.
+2020-01-14 13:57:18,031|DEBUG|- 5 shitcoins
+2020-01-14 13:57:18,033|DEBUG|- leather ring lvl:4 val:40
+2020-01-14 13:57:18,034|DEBUG|- bronze vase lvl:2 val:20
+2020-01-14 13:57:18,089|INFO|Executing a(n) diseased skeleton!
+2020-01-14 13:57:18,090|DEBUG|lvl:4 exp:5 sc:2
+2020-01-14 13:57:21,405|DEBUG|Earned 5 experience.
+2020-01-14 13:57:21,411|INFO|Looting corpse.
+2020-01-14 13:57:22,986|DEBUG|- 2 shitcoins
+2020-01-14 13:57:22,995|DEBUG|- leather amulet lvl:9 val:90
+2020-01-14 13:57:23,004|DEBUG|- sturdy amulet lvl:1 val:10
+2020-01-14 13:57:23,010|INFO|Going to town to sell the loot.
+2020-01-14 13:57:27,647|INFO|Selling steel stone.
+2020-01-14 13:57:29,224|INFO|Selling iron clip.
+2020-01-14 13:57:30,793|INFO|Selling bronze vase.
+2020-01-14 13:57:32,370|INFO|Selling platinium dice.
+2020-01-14 13:57:33,949|INFO|Selling platinium clip.
+2020-01-14 13:57:35,522|INFO|Selling bronze dice.
+2020-01-14 13:57:37,095|INFO|Selling cloth vase.
+2020-01-14 13:57:38,673|INFO|Selling iron screw.
+2020-01-14 13:57:40,249|INFO|Selling iron vase.
+2020-01-14 13:57:41,819|INFO|Selling shitty vase.
+2020-01-14 13:57:43,388|INFO|Selling cloth dice.
+2020-01-14 13:57:44,957|INFO|Selling silver scarf.
+2020-01-14 13:57:46,520|INFO|Selling sturdy scarf.
+2020-01-14 13:57:48,097|INFO|Selling cloth ring.
+2020-01-14 13:57:49,672|INFO|Selling bronze amulet.
+2020-01-14 13:57:51,243|INFO|Selling cloth screw.
+2020-01-14 13:57:52,824|INFO|Selling leather ring.
+2020-01-14 13:57:54,402|INFO|Selling bronze vase.
+2020-01-14 13:57:55,976|INFO|Selling leather amulet.
+2020-01-14 13:57:57,547|INFO|Selling sturdy amulet.
+2020-01-14 13:57:59,121|INFO|Going to a dungeon.
+2020-01-14 13:58:03,754|INFO|Looking for monsters to pick a fight with.
+2020-01-14 13:58:08,439|INFO|Executing a(n) weak rat!
+2020-01-14 13:58:08,439|DEBUG|lvl:3 exp:3 sc:0
+2020-01-14 13:58:12,007|DEBUG|Earned 3 experience.
+2020-01-14 13:58:12,012|INFO|Looting corpse.
+2020-01-14 13:58:13,581|DEBUG|- 0 shitcoins
+2020-01-14 13:58:13,636|INFO|Executing a(n) red turtle!
+2020-01-14 13:58:13,636|DEBUG|lvl:2 exp:2 sc:1
+2020-01-14 13:58:17,501|DEBUG|Earned 2 experience.
+2020-01-14 13:58:17,503|INFO|Looting corpse.
+2020-01-14 13:58:19,073|DEBUG|- 1 shitcoins
+2020-01-14 13:58:19,075|DEBUG|- silver scarf lvl:1 val:10
+2020-01-14 13:58:19,130|INFO|Executing a(n) malnourished lawyer!
+2020-01-14 13:58:19,130|DEBUG|lvl:4 exp:5 sc:7
+2020-01-14 13:58:22,448|DEBUG|Earned 5 experience.
+2020-01-14 13:58:22,453|INFO|Looting corpse.
+2020-01-14 13:58:24,021|DEBUG|- 7 shitcoins
+2020-01-14 13:58:24,025|DEBUG|- shitty amulet lvl:6 val:60
+2020-01-14 13:58:24,077|INFO|Executing a(n) weak zebra!
+2020-01-14 13:58:24,077|DEBUG|lvl:1 exp:1 sc:1
+2020-01-14 13:58:28,290|DEBUG|Earned 1 experience.
+2020-01-14 13:58:28,291|INFO|Looting corpse.
+2020-01-14 13:58:29,859|DEBUG|- 1 shitcoins
+2020-01-14 13:58:29,915|INFO|Executing a(n) diseased demon!
+2020-01-14 13:58:29,915|DEBUG|lvl:1 exp:1 sc:0
+2020-01-14 13:58:34,128|DEBUG|Earned 1 experience.
+2020-01-14 13:58:34,133|INFO|Looting corpse.
+2020-01-14 13:58:35,702|DEBUG|- 0 shitcoins
+2020-01-14 13:58:35,757|INFO|Executing a(n) strong security guard!
+2020-01-14 13:58:35,757|DEBUG|lvl:1 exp:1 sc:2
+2020-01-14 13:58:39,975|DEBUG|Earned 1 experience.
+2020-01-14 13:58:39,980|INFO|Looting corpse.
+2020-01-14 13:58:41,549|DEBUG|- 2 shitcoins
+2020-01-14 13:58:41,551|DEBUG|- shitty dice lvl:1 val:10
+2020-01-14 13:58:41,552|DEBUG|- leather scarf lvl:1 val:10
+2020-01-14 13:58:41,607|INFO|Executing a(n) diseased zebra!
+2020-01-14 13:58:41,608|DEBUG|lvl:3 exp:3 sc:5
+2020-01-14 13:58:45,180|DEBUG|Earned 3 experience.
+2020-01-14 13:58:45,186|INFO|Looting corpse.
+2020-01-14 13:58:46,755|DEBUG|- 5 shitcoins
+2020-01-14 13:58:46,810|INFO|Executing a(n) huge cockroach!
+2020-01-14 13:58:46,810|DEBUG|lvl:5 exp:7 sc:7
+2020-01-14 13:58:49,908|DEBUG|Earned 7 experience.
+2020-01-14 13:58:49,913|INFO|Looting corpse.
+2020-01-14 13:58:51,479|DEBUG|- 7 shitcoins
+2020-01-14 13:58:51,485|DEBUG|- gold dice lvl:1 val:10
+2020-01-14 13:58:51,490|DEBUG|- bronze badge lvl:5 val:50
+2020-01-14 13:58:51,546|INFO|Executing a(n) big rat!
+2020-01-14 13:58:51,546|DEBUG|lvl:1 exp:1 sc:1
+2020-01-14 13:58:55,761|DEBUG|Earned 1 experience.
+2020-01-14 13:58:55,765|INFO|Looting corpse.
+2020-01-14 13:58:57,337|DEBUG|- 1 shitcoins
+2020-01-14 13:58:57,392|INFO|Executing a(n) strong rat!
+2020-01-14 13:58:57,393|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:59:01,608|DEBUG|Earned 1 experience.
+2020-01-14 13:59:01,613|INFO|Looting corpse.
+2020-01-14 13:59:03,183|DEBUG|- 5 shitcoins
+2020-01-14 13:59:03,184|DEBUG|- silver dice lvl:4 val:40
+2020-01-14 13:59:03,185|DEBUG|- iron badge lvl:1 val:10
+2020-01-14 13:59:03,241|INFO|Executing a(n) tiny cockroach!
+2020-01-14 13:59:03,241|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:59:07,456|DEBUG|Earned 1 experience.
+2020-01-14 13:59:07,461|INFO|Looting corpse.
+2020-01-14 13:59:09,038|DEBUG|- 5 shitcoins
+2020-01-14 13:59:09,043|DEBUG|- silver screw lvl:1 val:10
+2020-01-14 13:59:09,048|DEBUG|- cloth screw lvl:2 val:20
+2020-01-14 13:59:09,104|INFO|Executing a(n) stinky rat!
+2020-01-14 13:59:09,104|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:59:13,320|DEBUG|Earned 1 experience.
+2020-01-14 13:59:13,325|INFO|Looting corpse.
+2020-01-14 13:59:14,895|DEBUG|- 5 shitcoins
+2020-01-14 13:59:14,896|DEBUG|- iron stone lvl:2 val:20
+2020-01-14 13:59:14,951|INFO|Executing a(n) tiny turtle!
+2020-01-14 13:59:14,952|DEBUG|lvl:1 exp:1 sc:1
+2020-01-14 13:59:19,167|DEBUG|Earned 1 experience.
+2020-01-14 13:59:19,172|INFO|Looting corpse.
+2020-01-14 13:59:20,742|DEBUG|- 1 shitcoins
+2020-01-14 13:59:20,798|INFO|Executing a(n) diseased imp!
+2020-01-14 13:59:20,798|DEBUG|lvl:2 exp:2 sc:3
+2020-01-14 13:59:24,663|DEBUG|Earned 2 experience.
+2020-01-14 13:59:24,668|INFO|Looting corpse.
+2020-01-14 13:59:26,240|DEBUG|- 3 shitcoins
+2020-01-14 13:59:26,248|DEBUG|- cloth badge lvl:1 val:10
+2020-01-14 13:59:26,307|INFO|Executing a(n) huge demon!
+2020-01-14 13:59:26,307|DEBUG|lvl:2 exp:2 sc:3
+2020-01-14 13:59:30,175|DEBUG|Earned 2 experience.
+2020-01-14 13:59:30,180|INFO|Looting corpse.
+2020-01-14 13:59:31,742|DEBUG|- 3 shitcoins
+2020-01-14 13:59:31,745|DEBUG|- sturdy bucket lvl:5 val:50
+2020-01-14 13:59:31,797|INFO|Executing a(n) red zombie!
+2020-01-14 13:59:31,797|DEBUG|lvl:1 exp:1 sc:1
+2020-01-14 13:59:36,004|DEBUG|Earned 1 experience.
+2020-01-14 13:59:36,006|INFO|Looting corpse.
+2020-01-14 13:59:37,570|DEBUG|- 1 shitcoins
+2020-01-14 13:59:37,575|DEBUG|- bronze clip lvl:6 val:60
+2020-01-14 13:59:37,581|DEBUG|- silver vase lvl:2 val:20
+2020-01-14 13:59:37,634|INFO|Executing a(n) huge rat!
+2020-01-14 13:59:37,634|DEBUG|lvl:4 exp:5 sc:2
+2020-01-14 13:59:40,949|DEBUG|Earned 5 experience.
+2020-01-14 13:59:40,957|INFO|Looting corpse.
+2020-01-14 13:59:42,525|DEBUG|- 2 shitcoins
+2020-01-14 13:59:42,530|DEBUG|- silver amulet lvl:5 val:50
+2020-01-14 13:59:42,536|DEBUG|- sturdy clip lvl:9 val:90
+2020-01-14 13:59:42,591|INFO|Executing a(n) big turtle!
+2020-01-14 13:59:42,592|DEBUG|lvl:1 exp:1 sc:5
+2020-01-14 13:59:46,806|DEBUG|Earned 1 experience.
+2020-01-14 13:59:46,812|INFO|Looting corpse.
+2020-01-14 13:59:48,380|DEBUG|- 5 shitcoins
+2020-01-14 13:59:48,434|INFO|Executing a(n) big skeleton!
+2020-01-14 13:59:48,434|DEBUG|lvl:1 exp:1 sc:1
+2020-01-14 13:59:52,644|DEBUG|Earned 1 experience.
+2020-01-14 13:59:52,645|INFO|Looting corpse.
+2020-01-14 13:59:54,213|DEBUG|- 1 shitcoins
+2020-01-14 13:59:54,272|INFO|Executing a(n) red lawyer!
+2020-01-14 13:59:54,273|DEBUG|lvl:4 exp:5 sc:1
+2020-01-14 13:59:57,590|DEBUG|Earned 5 experience.
+2020-01-14 13:59:57,595|INFO|Looting corpse.
+2020-01-14 13:59:59,160|DEBUG|- 1 shitcoins
+2020-01-14 13:59:59,165|DEBUG|- sturdy bucket lvl:6 val:60
+2020-01-14 13:59:59,171|DEBUG|- sturdy stone lvl:7 val:70
+2020-01-14 13:59:59,226|INFO|Executing a(n) big skeleton!
+2020-01-14 13:59:59,226|DEBUG|lvl:4 exp:5 sc:7
+2020-01-14 14:00:02,545|DEBUG|Earned 5 experience.
+2020-01-14 14:00:02,550|INFO|Looting corpse.
+2020-01-14 14:00:04,119|DEBUG|- 7 shitcoins
+2020-01-14 14:00:04,125|DEBUG|- leather dice lvl:9 val:90
+2020-01-14 14:00:04,130|INFO|Going to town to sell the loot.
+2020-01-14 14:00:08,770|INFO|Selling silver scarf.
+2020-01-14 14:00:10,341|INFO|Selling shitty amulet.
+2020-01-14 14:00:11,910|INFO|Selling shitty dice.
+2020-01-14 14:00:13,479|INFO|Selling leather scarf.
+2020-01-14 14:00:14,945|INFO|Saving info, exiting game.
+2020-01-14 14:07:20,837|INFO|Going to a dungeon.
+2020-01-14 14:07:25,471|INFO|Looking for monsters to pick a fight with.
+2020-01-14 14:07:30,157|INFO|Executing a(n) tiny rat!
+2020-01-14 14:07:30,157|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:07:34,369|DEBUG|Earned 2 experience.
+2020-01-14 14:07:34,377|INFO|Looting corpse.
+2020-01-14 14:07:35,953|DEBUG|- 0 shitcoins
+2020-01-14 14:07:35,955|DEBUG|- iron scarf lvl:4 val:40
+2020-01-14 14:07:36,013|INFO|Executing a(n) diseased skeleton!
+2020-01-14 14:07:36,013|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:07:40,230|DEBUG|Earned 2 experience.
+2020-01-14 14:07:40,236|INFO|Looting corpse.
+2020-01-14 14:07:41,808|DEBUG|- 0 shitcoins
+2020-01-14 14:07:41,815|DEBUG|- shitty vase lvl:1 val:10
+2020-01-14 14:07:41,821|DEBUG|- sturdy vase lvl:4 val:40
+2020-01-14 14:07:41,877|INFO|Executing a(n) tiny skeleton!
+2020-01-14 14:07:41,877|DEBUG|lvl:1 exp:2 sc:3
+2020-01-14 14:07:46,089|DEBUG|Earned 2 experience.
+2020-01-14 14:07:46,090|INFO|Looting corpse.
+2020-01-14 14:07:47,646|DEBUG|- 3 shitcoins
+2020-01-14 14:07:47,648|DEBUG|- silver dice lvl:1 val:10
+2020-01-14 14:07:47,649|DEBUG|- silver dice lvl:1 val:10
+2020-01-14 14:07:47,651|INFO|Going to town to sell the loot.
+2020-01-14 14:07:52,276|INFO|Selling gold dice.
+2020-01-14 14:07:53,847|INFO|Selling bronze badge.
+2020-01-14 14:07:55,420|INFO|Selling silver dice.
+2020-01-14 14:07:56,993|INFO|Selling iron badge.
+2020-01-14 14:07:58,563|INFO|Selling silver screw.
+2020-01-14 14:08:00,132|INFO|Selling cloth screw.
+2020-01-14 14:08:01,706|INFO|Selling iron stone.
+2020-01-14 14:08:03,279|INFO|Selling cloth badge.
+2020-01-14 14:08:04,849|INFO|Selling sturdy bucket.
+2020-01-14 14:08:06,428|INFO|Selling bronze clip.
+2020-01-14 14:08:07,998|INFO|Selling silver vase.
+2020-01-14 14:08:09,572|INFO|Selling silver amulet.
+2020-01-14 14:08:11,145|INFO|Selling sturdy clip.
+2020-01-14 14:08:12,718|INFO|Selling sturdy bucket.
+2020-01-14 14:08:14,288|INFO|Selling sturdy stone.
+2020-01-14 14:08:15,855|INFO|Selling leather dice.
+2020-01-14 14:08:17,424|INFO|Selling iron scarf.
+2020-01-14 14:08:18,993|INFO|Selling shitty vase.
+2020-01-14 14:08:20,562|INFO|Selling sturdy vase.
+2020-01-14 14:08:22,133|INFO|Selling silver dice.
+2020-01-14 14:08:23,703|INFO|Selling silver dice.
+2020-01-14 14:08:25,277|INFO|Going to a dungeon.
+2020-01-14 14:08:29,908|INFO|Looking for monsters to pick a fight with.
+2020-01-14 14:08:34,595|INFO|Executing a(n) stinky imp!
+2020-01-14 14:08:34,595|DEBUG|lvl:1 exp:2 sc:5
+2020-01-14 14:08:38,811|DEBUG|Earned 2 experience.
+2020-01-14 14:08:38,816|INFO|Looting corpse.
+2020-01-14 14:08:40,381|DEBUG|- 5 shitcoins
+2020-01-14 14:08:40,389|DEBUG|- cloth badge lvl:2 val:20
+2020-01-14 14:08:40,397|DEBUG|- platinium badge lvl:2 val:20
+2020-01-14 14:08:40,455|INFO|Executing a(n) huge cockroach!
+2020-01-14 14:08:40,456|DEBUG|lvl:5 exp:15 sc:3
+2020-01-14 14:08:43,554|DEBUG|Earned 15 experience.
+2020-01-14 14:08:43,562|INFO|Looting corpse.
+2020-01-14 14:08:45,131|DEBUG|- 3 shitcoins
+2020-01-14 14:08:45,189|INFO|Executing a(n) tiny cockroach!
+2020-01-14 14:08:45,189|DEBUG|lvl:2 exp:3 sc:3
+2020-01-14 14:08:49,050|DEBUG|Earned 3 experience.
+2020-01-14 14:08:49,051|INFO|Looting corpse.
+2020-01-14 14:08:50,611|DEBUG|- 3 shitcoins
+2020-01-14 14:08:50,616|DEBUG|- shitty scarf lvl:2 val:20
+2020-01-14 14:08:50,672|INFO|Executing a(n) big rat!
+2020-01-14 14:08:50,672|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:08:54,882|DEBUG|Earned 2 experience.
+2020-01-14 14:08:54,884|INFO|Looting corpse.
+2020-01-14 14:08:56,452|DEBUG|- 4 shitcoins
+2020-01-14 14:08:56,460|DEBUG|- platinium scarf lvl:1 val:10
+2020-01-14 14:08:56,466|DEBUG|- leather scarf lvl:1 val:10
+2020-01-14 14:08:56,522|INFO|Executing a(n) tiny zombie!
+2020-01-14 14:08:56,522|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:09:00,735|DEBUG|Earned 2 experience.
+2020-01-14 14:09:00,739|INFO|Looting corpse.
+2020-01-14 14:09:02,308|DEBUG|- 0 shitcoins
+2020-01-14 14:09:02,364|INFO|Executing a(n) weak demon!
+2020-01-14 14:09:02,364|DEBUG|lvl:2 exp:3 sc:6
+2020-01-14 14:09:06,227|DEBUG|Earned 3 experience.
+2020-01-14 14:09:06,232|INFO|Looting corpse.
+2020-01-14 14:09:07,804|DEBUG|- 6 shitcoins
+2020-01-14 14:09:07,809|DEBUG|- cloth scarf lvl:4 val:40
+2020-01-14 14:09:07,864|INFO|Executing a(n) diseased imp!
+2020-01-14 14:09:07,864|DEBUG|lvl:5 exp:12 sc:1
+2020-01-14 14:09:10,964|DEBUG|Earned 12 experience.
+2020-01-14 14:09:10,969|INFO|Looting corpse.
+2020-01-14 14:09:12,538|DEBUG|- 1 shitcoins
+2020-01-14 14:09:12,544|DEBUG|- iron vase lvl:1 val:10
+2020-01-14 14:09:12,599|INFO|Executing a(n) big security guard!
+2020-01-14 14:09:12,599|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:09:16,810|DEBUG|Earned 2 experience.
+2020-01-14 14:09:16,817|INFO|Looting corpse.
+2020-01-14 14:09:18,390|DEBUG|- 0 shitcoins
+2020-01-14 14:09:18,446|INFO|Executing a(n) stinky lawyer!
+2020-01-14 14:09:18,446|DEBUG|lvl:5 exp:9 sc:7
+2020-01-14 14:09:21,545|DEBUG|Earned 9 experience.
+2020-01-14 14:09:21,550|INFO|Looting corpse.
+2020-01-14 14:09:23,120|DEBUG|- 7 shitcoins
+2020-01-14 14:09:23,125|DEBUG|- gold screw lvl:2 val:20
+2020-01-14 14:09:23,131|DEBUG|- bronze stone lvl:6 val:60
+2020-01-14 14:09:23,187|INFO|Executing a(n) small turtle!
+2020-01-14 14:09:23,187|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:09:27,398|DEBUG|Earned 2 experience.
+2020-01-14 14:09:27,403|INFO|Looting corpse.
+2020-01-14 14:09:28,971|DEBUG|- 4 shitcoins
+2020-01-14 14:09:28,977|DEBUG|- platinium scarf lvl:1 val:10
+2020-01-14 14:09:28,982|DEBUG|- gold ring lvl:4 val:40
+2020-01-14 14:09:29,037|INFO|Executing a(n) strong cockroach!
+2020-01-14 14:09:29,038|DEBUG|lvl:2 exp:4 sc:4
+2020-01-14 14:09:32,903|DEBUG|Earned 4 experience.
+2020-01-14 14:09:32,908|INFO|Looting corpse.
+2020-01-14 14:09:34,477|DEBUG|- 4 shitcoins
+2020-01-14 14:09:34,483|DEBUG|- shitty vase lvl:1 val:10
+2020-01-14 14:09:34,488|DEBUG|- bronze clip lvl:4 val:40
+2020-01-14 14:09:34,543|INFO|Executing a(n) diseased zebra!
+2020-01-14 14:09:34,544|DEBUG|lvl:1 exp:2 sc:2
+2020-01-14 14:09:38,756|DEBUG|Earned 2 experience.
+2020-01-14 14:09:38,758|INFO|Looting corpse.
+2020-01-14 14:09:40,320|DEBUG|- 2 shitcoins
+2020-01-14 14:09:40,327|DEBUG|- steel bucket lvl:1 val:10
+2020-01-14 14:09:40,383|INFO|Executing a(n) tiny lawyer!
+2020-01-14 14:09:40,383|DEBUG|lvl:5 exp:9 sc:7
+2020-01-14 14:09:43,484|DEBUG|Earned 9 experience.
+2020-01-14 14:09:43,489|INFO|Looting corpse.
+2020-01-14 14:09:45,053|DEBUG|- 7 shitcoins
+2020-01-14 14:09:45,108|INFO|Executing a(n) strong zebra!
+2020-01-14 14:09:45,109|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:09:49,319|DEBUG|Earned 2 experience.
+2020-01-14 14:09:49,327|INFO|Looting corpse.
+2020-01-14 14:09:50,900|DEBUG|- 4 shitcoins
+2020-01-14 14:09:50,902|DEBUG|- sturdy ring lvl:4 val:40
+2020-01-14 14:09:50,903|DEBUG|- sturdy ring lvl:1 val:10
+2020-01-14 14:09:50,958|INFO|Executing a(n) tiny skeleton!
+2020-01-14 14:09:50,959|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:09:55,168|DEBUG|Earned 2 experience.
+2020-01-14 14:09:55,169|INFO|Looting corpse.
+2020-01-14 14:09:56,729|DEBUG|- 0 shitcoins
+2020-01-14 14:09:56,736|DEBUG|- gold clip lvl:1 val:10
+2020-01-14 14:09:56,791|INFO|Executing a(n) big imp!
+2020-01-14 14:09:56,792|DEBUG|lvl:4 exp:8 sc:7
+2020-01-14 14:10:00,109|DEBUG|Earned 8 experience.
+2020-01-14 14:10:00,114|INFO|Looting corpse.
+2020-01-14 14:10:01,681|DEBUG|- 7 shitcoins
+2020-01-14 14:10:01,732|INFO|Executing a(n) stinky skeleton!
+2020-01-14 14:10:01,732|DEBUG|lvl:4 exp:9 sc:1
+2020-01-14 14:10:05,040|DEBUG|Earned 9 experience.
+2020-01-14 14:10:05,048|INFO|Looting corpse.
+2020-01-14 14:10:06,617|DEBUG|- 1 shitcoins
+2020-01-14 14:10:06,623|DEBUG|- leather scarf lvl:9 val:90
+2020-01-14 14:10:06,679|INFO|Executing a(n) strong skeleton!
+2020-01-14 14:10:06,679|DEBUG|lvl:1 exp:2 sc:1
+2020-01-14 14:10:10,890|DEBUG|Earned 2 experience.
+2020-01-14 14:10:10,895|INFO|Looting corpse.
+2020-01-14 14:10:12,464|DEBUG|- 1 shitcoins
+2020-01-14 14:10:12,469|DEBUG|- cloth vase lvl:3 val:30
+2020-01-14 14:10:12,525|INFO|Executing a(n) huge imp!
+2020-01-14 14:10:12,525|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:10:16,739|DEBUG|Earned 2 experience.
+2020-01-14 14:10:16,745|INFO|Looting corpse.
+2020-01-14 14:10:18,315|DEBUG|- 0 shitcoins
+2020-01-14 14:10:18,321|DEBUG|- platinium scarf lvl:4 val:40
+2020-01-14 14:10:18,326|INFO|Going to town to sell the loot.
+2020-01-14 14:10:22,964|INFO|Selling cloth badge.
+2020-01-14 14:10:24,535|INFO|Selling platinium badge.
+2020-01-14 14:10:26,103|INFO|Selling shitty scarf.
+2020-01-14 14:10:27,678|INFO|Selling platinium scarf.
+2020-01-14 14:10:29,252|INFO|Selling leather scarf.
+2020-01-14 14:10:30,821|INFO|Selling cloth scarf.
+2020-01-14 14:10:32,400|INFO|Selling iron vase.
+2020-01-14 14:10:33,976|INFO|Selling gold screw.
+2020-01-14 14:10:35,546|INFO|Selling bronze stone.
+2020-01-14 14:10:37,118|INFO|Selling platinium scarf.
+2020-01-14 14:10:38,687|INFO|Selling gold ring.
+2020-01-14 14:10:40,258|INFO|Selling shitty vase.
+2020-01-14 14:10:41,837|INFO|Selling bronze clip.
+2020-01-14 14:10:43,415|INFO|Selling steel bucket.
+2020-01-14 14:10:44,989|INFO|Selling sturdy ring.
+2020-01-14 14:10:46,559|INFO|Selling sturdy ring.
+2020-01-14 14:10:48,127|INFO|Selling gold clip.
+2020-01-14 14:10:49,696|INFO|Selling leather scarf.
+2020-01-14 14:10:51,265|INFO|Selling cloth vase.
+2020-01-14 14:10:52,833|INFO|Selling platinium scarf.
+2020-01-14 14:10:54,406|INFO|Going to a dungeon.
+2020-01-14 14:10:59,045|INFO|Looking for monsters to pick a fight with.
+2020-01-14 14:11:03,731|INFO|Executing a(n) weak security guard!
+2020-01-14 14:11:03,731|DEBUG|lvl:1 exp:2 sc:2
+2020-01-14 14:11:07,938|DEBUG|Earned 2 experience.
+2020-01-14 14:11:07,943|INFO|Looting corpse.
+2020-01-14 14:11:09,508|DEBUG|- 2 shitcoins
+2020-01-14 14:11:09,564|INFO|Executing a(n) stinky rat!
+2020-01-14 14:11:09,564|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:11:13,774|DEBUG|Earned 2 experience.
+2020-01-14 14:11:13,775|INFO|Looting corpse.
+2020-01-14 14:11:15,336|DEBUG|- 4 shitcoins
+2020-01-14 14:11:15,342|DEBUG|- leather amulet lvl:1 val:10
+2020-01-14 14:11:15,347|DEBUG|- platinium clip lvl:1 val:10
+2020-01-14 14:11:15,402|INFO|Executing a(n) big zombie!
+2020-01-14 14:11:15,402|DEBUG|lvl:1 exp:2 sc:1
+2020-01-14 14:11:19,615|DEBUG|Earned 2 experience.
+2020-01-14 14:11:19,621|INFO|Looting corpse.
+2020-01-14 14:11:21,191|DEBUG|- 1 shitcoins
+2020-01-14 14:11:21,192|DEBUG|- iron bucket lvl:3 val:30
+2020-01-14 14:11:21,193|DEBUG|- gold scarf lvl:6 val:60
+2020-01-14 14:11:21,249|INFO|Executing a(n) stinky zebra!
+2020-01-14 14:11:21,249|DEBUG|lvl:1 exp:2 sc:5
+2020-01-14 14:11:25,463|DEBUG|Earned 2 experience.
+2020-01-14 14:11:25,468|INFO|Looting corpse.
+2020-01-14 14:11:27,035|DEBUG|- 5 shitcoins
+2020-01-14 14:11:27,040|DEBUG|- leather badge lvl:1 val:10
+2020-01-14 14:11:27,095|INFO|Executing a(n) big zombie!
+2020-01-14 14:11:27,095|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:11:31,310|DEBUG|Earned 2 experience.
+2020-01-14 14:11:31,314|INFO|Looting corpse.
+2020-01-14 14:11:32,883|DEBUG|- 4 shitcoins
+2020-01-14 14:11:32,889|DEBUG|- gold dice lvl:1 val:10
+2020-01-14 14:11:32,897|DEBUG|- silver ring lvl:6 val:60
+2020-01-14 14:11:32,955|INFO|Executing a(n) strong cockroach!
+2020-01-14 14:11:32,956|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:11:37,175|DEBUG|Earned 2 experience.
+2020-01-14 14:11:37,180|INFO|Looting corpse.
+2020-01-14 14:11:38,747|DEBUG|- 4 shitcoins
+2020-01-14 14:11:38,802|INFO|Executing a(n) big security guard!
+2020-01-14 14:11:38,802|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:11:43,018|DEBUG|Earned 2 experience.
+2020-01-14 14:11:43,023|INFO|Looting corpse.
+2020-01-14 14:11:44,586|DEBUG|- 4 shitcoins
+2020-01-14 14:11:44,592|DEBUG|- silver scarf lvl:1 val:10
+2020-01-14 14:11:44,648|INFO|Executing a(n) red skeleton!
+2020-01-14 14:11:44,649|DEBUG|lvl:5 exp:10 sc:0
+2020-01-14 14:11:47,748|DEBUG|Earned 10 experience.
+2020-01-14 14:11:47,753|INFO|Looting corpse.
+2020-01-14 14:11:49,322|DEBUG|- 0 shitcoins
+2020-01-14 14:11:49,378|INFO|Executing a(n) small imp!
+2020-01-14 14:11:49,378|DEBUG|lvl:1 exp:2 sc:1
+2020-01-14 14:11:53,591|DEBUG|Earned 2 experience.
+2020-01-14 14:11:53,596|INFO|Looting corpse.
+2020-01-14 14:11:55,163|DEBUG|- 1 shitcoins
+2020-01-14 14:11:55,164|DEBUG|- platinium ring lvl:1 val:10
+2020-01-14 14:11:55,220|INFO|Executing a(n) stinky zebra!
+2020-01-14 14:11:55,220|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:11:59,436|DEBUG|Earned 2 experience.
+2020-01-14 14:11:59,442|INFO|Looting corpse.
+2020-01-14 14:12:01,012|DEBUG|- 4 shitcoins
+2020-01-14 14:12:01,067|INFO|Executing a(n) red demon!
+2020-01-14 14:12:01,068|DEBUG|lvl:1 exp:2 sc:1
+2020-01-14 14:12:05,283|DEBUG|Earned 2 experience.
+2020-01-14 14:12:05,285|INFO|Looting corpse.
+2020-01-14 14:12:06,852|DEBUG|- 1 shitcoins
+2020-01-14 14:12:06,907|INFO|Executing a(n) malnourished lawyer!
+2020-01-14 14:12:06,907|DEBUG|lvl:2 exp:4 sc:3
+2020-01-14 14:12:10,775|DEBUG|Earned 4 experience.
+2020-01-14 14:12:10,781|INFO|Looting corpse.
+2020-01-14 14:12:12,351|DEBUG|- 3 shitcoins
+2020-01-14 14:12:12,356|DEBUG|- cloth scarf lvl:1 val:10
+2020-01-14 14:12:12,412|INFO|Executing a(n) huge zombie!
+2020-01-14 14:12:12,412|DEBUG|lvl:1 exp:2 sc:5
+2020-01-14 14:12:16,628|DEBUG|Earned 2 experience.
+2020-01-14 14:12:16,633|INFO|Looting corpse.
+2020-01-14 14:12:18,204|DEBUG|- 5 shitcoins
+2020-01-14 14:12:18,205|DEBUG|- steel amulet lvl:1 val:10
+2020-01-14 14:12:18,259|INFO|Executing a(n) diseased zebra!
+2020-01-14 14:12:18,259|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:12:22,474|DEBUG|Earned 2 experience.
+2020-01-14 14:12:22,479|INFO|Looting corpse.
+2020-01-14 14:12:24,050|DEBUG|- 4 shitcoins
+2020-01-14 14:12:24,056|DEBUG|- iron amulet lvl:1 val:10
+2020-01-14 14:12:24,061|DEBUG|- gold vase lvl:1 val:10
+2020-01-14 14:12:24,117|INFO|Executing a(n) huge turtle!
+2020-01-14 14:12:24,118|DEBUG|lvl:1 exp:2 sc:2
+2020-01-14 14:12:28,335|DEBUG|Earned 2 experience.
+2020-01-14 14:12:28,340|INFO|Looting corpse.
+2020-01-14 14:12:29,904|DEBUG|- 2 shitcoins
+2020-01-14 14:12:29,960|INFO|Executing a(n) big demon!
+2020-01-14 14:12:29,960|DEBUG|lvl:5 exp:13 sc:6
+2020-01-14 14:12:33,059|DEBUG|Earned 13 experience.
+2020-01-14 14:12:33,064|INFO|Looting corpse.
+2020-01-14 14:12:34,631|DEBUG|- 6 shitcoins
+2020-01-14 14:12:34,637|DEBUG|- gold scarf lvl:6 val:60
+2020-01-14 14:12:34,690|INFO|Executing a(n) small demon!
+2020-01-14 14:12:34,690|DEBUG|lvl:4 exp:7 sc:5
+2020-01-14 14:12:38,001|DEBUG|Earned 7 experience.
+2020-01-14 14:12:38,007|INFO|Looting corpse.
+2020-01-14 14:12:39,576|DEBUG|- 5 shitcoins
+2020-01-14 14:12:39,582|DEBUG|- silver amulet lvl:5 val:50
+2020-01-14 14:12:39,637|INFO|Executing a(n) huge turtle!
+2020-01-14 14:12:39,638|DEBUG|lvl:1 exp:2 sc:4
+2020-01-14 14:12:43,853|DEBUG|Earned 2 experience.
+2020-01-14 14:12:43,859|INFO|Looting corpse.
+2020-01-14 14:12:45,426|DEBUG|- 4 shitcoins
+2020-01-14 14:12:45,432|DEBUG|- bronze amulet lvl:1 val:10
+2020-01-14 14:12:45,439|DEBUG|- platinium dice lvl:1 val:10
+2020-01-14 14:12:45,494|INFO|Executing a(n) weak zebra!
+2020-01-14 14:12:45,494|DEBUG|lvl:2 exp:3 sc:6
+2020-01-14 14:12:49,360|DEBUG|Earned 3 experience.
+2020-01-14 14:12:49,368|INFO|Looting corpse.
+2020-01-14 14:12:50,937|DEBUG|- 6 shitcoins
+2020-01-14 14:12:50,939|DEBUG|- steel dice lvl:5 val:50
+2020-01-14 14:12:50,994|INFO|Executing a(n) diseased cockroach!
+2020-01-14 14:12:50,994|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:12:55,210|DEBUG|Earned 2 experience.
+2020-01-14 14:12:55,215|INFO|Looting corpse.
+2020-01-14 14:12:56,782|DEBUG|- 0 shitcoins
+2020-01-14 14:12:56,838|INFO|Executing a(n) huge skeleton!
+2020-01-14 14:12:56,838|DEBUG|lvl:1 exp:2 sc:0
+2020-01-14 14:12:59,455|INFO|Saving info, exiting game.

@@ -1,4 +1,6 @@
 import tui
+import logging
+import config
 
 
 def modifier(player_lvl, mob_lvl):
@@ -6,9 +8,9 @@ def modifier(player_lvl, mob_lvl):
     return 1 + diff
 
 def log(string):
-    if tui_enabled == True:
-        window.prnt(string)
-    else:
-        print(string)
+    tui.log(string)
+    logging.info(string)
 
+def debug_log(string):
+    logging.debug(string)
         

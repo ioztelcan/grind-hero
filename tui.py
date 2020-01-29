@@ -129,10 +129,7 @@ def update_inventory_panel(hero):
         inventory_panel.write(inventory_panel.start_row + 1 + i,inventory_panel.start_col,"{} {}".format(item.adjective, item.name))
         i = i + 1
 
-
 def log(string):
-    # Write to a log file.
-    # Write to log panel.
     log_panel.clear()
     log_panel.write(log_panel.start_row, log_panel.start_col, string)
 
@@ -144,12 +141,3 @@ def run_progress_bar(speed):
         progress_panel.write(progress_panel.start_row, progress_panel.start_col + i, " ")
         progress_panel.view.attroff(curses.color_pair(3))
         time.sleep(speed)
-
-
-#s = init()
-#create_stats_panel(s)
-#create_equipped_panel(s)
-#create_inventory_panel(s)
-#create_log_panel(s)
-#create_progress_panel(s)
-#s.die()

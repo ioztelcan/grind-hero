@@ -1,62 +1,52 @@
-#!venv/bin/python3
-import signal, sys
+#!/usr/bin/env python3
 import chars, config, util, objects, tui
+import signal, sys
 import time
 import argparse
 import yaml
 import curses
+import logging
 
 def encounter(hero):
     monster = chars.Mob(hero.lvl)
-    tui.log("Executing a(n) {} {}!".format(monster.adjective, monster.name))
+    util.log("Executing a(n) {} {}!".format(monster.adjective, monster.name))
+    util.debug_log("lvl:{} exp:{} sc:{}".format(monster.lvl, monster.exp, monster.shitcoins))
     tui.run_progress_bar(config.TURN_SPEED / util.modifier(hero.lvl, monster.lvl))
     
-    #tui.log("Attacking the {} {}.".format(monster.adjective, monster.name))
-    #tui.run_progress_bar(config.TURN_SPEED)
-    
-    # Disable complex fight mechanics for now
-    #while (monster.hp > 0):
-        #print(".".format(monster.hp), end="", flush=True)
-        #dmg_given = int(hero.attack * util.modifier(hero.lvl, monster.lvl))
-        #dmg_taken = int(max(1, dmg_given - monster.defense * util.modifier(hero.lvl, monster.lvl)))
-        #monster.hp = monster.hp - dmg_taken
-        #time.sleep(config.TURN_SPEED)
-    
-    #tui.log("Defeated the {} {}!".format(monster.adjective, monster.name))
-    #tui.log("Earned {} experience.".format(monster.exp))
     hero.exp = int(monster.exp + hero.exp)
+    util.debug_log("Earned {} experience.".format(monster.exp))
     if (hero.exp >= hero.exp_next_lvl):
-        tui.log("Level up! {} -> {}".format(hero.lvl, hero.next_lvl))
+        util.log("Level up! {} -> {}".format(hero.lvl, hero.next_lvl))
         hero.level_up()
     tui.update_stats_panel(hero)
     
-    tui.log("Looting corpse.")
+    util.log("Looting corpse.")
     tui.run_progress_bar(config.TURN_SPEED / 3)
     hero.shitcoins = monster.shitcoins + hero.shitcoins
     tui.update_inventory_panel(hero)
-    #print("{} shitcoins".format(monster.shitcoins), end="", flush=True)
+    util.debug_log("- {} shitcoins".format(monster.shitcoins))
     for i in range(monster.loot_amount):
         loot = objects.Item(monster.lvl)
         hero.inventory.append(loot)
         tui.update_inventory_panel(hero)
-        #print(", {} {}".format(loot.adjective, loot.name), end="", flush=True)
-    #print("")
+        util.debug_log("- {} {} lvl:{} val:{}".format(loot.adjective, loot.name, loot.lvl, loot.value))
+
 
 def go_to_dungeon(hero):
-    tui.log("Going to a dungeon.")
+    util.log("Going to a dungeon.")
     tui.run_progress_bar(config.TURN_SPEED)
-    tui.log("Looking for monsters to pick a fight with.")
+    util.log("Looking for monsters to pick a fight with.")
     tui.run_progress_bar(config.TURN_SPEED)
     while len(hero.inventory) < 20: # Possibly change inventory size with upgrades?
         time.sleep(config.TURN_SPEED)
         encounter(hero)
 
 def go_to_town(hero):
-    tui.log("Going to town to sell the loot.")
+    util.log("Going to town to sell the loot.")
     tui.run_progress_bar(config.TURN_SPEED)
     temp_inv = hero.inventory.copy()
     for item in temp_inv:
-        tui.log("Selling {} {}.".format(item.adjective, item.name))
+        util.log("Selling {} {}.".format(item.adjective, item.name))
         hero.shitcoins = hero.shitcoins + item.value
         hero.inventory.remove(item)
         tui.run_progress_bar(config.TURN_SPEED / 3)
@@ -71,7 +61,6 @@ def start(hero):
 def bootstrap():
     parser = argparse.ArgumentParser()
     parser.add_argument("-c", "--char", required=False, help="Character file that was saved before, if not provided, new one will be generated.")
-    parser.add_argument("-t", "--tui", type=bool, required=False, help="Launches text user interface if given.")
     args = parser.parse_args()
     if args.char == None:
         print("No saved character provided, generating a new hero...")
@@ -83,14 +72,15 @@ def bootstrap():
         time.sleep(0.5)
         hero = chars.Hero()
         hero.load_info(args.char)
-
-    if args.tui == True:
-        scr = tui.init()
-        tui.update_stats_panel(hero)
-        tui.update_inventory_panel(hero)
+        
+    logfile = config.LOGS_LOCATION + hero.name + '.log'
+    logging.basicConfig(filename=logfile,level=logging.DEBUG, format='%(asctime)s|%(levelname)s|%(message)s')
+    scr = tui.init()
+    tui.update_stats_panel(hero)
+    tui.update_inventory_panel(hero)
 
     def sigint_handler(sig, frame):
-        tui.log("Saving info, exiting game.")
+        util.log("Saving info, exiting game.")
         time.sleep(0.5)
         hero.save_info()
         scr.die()

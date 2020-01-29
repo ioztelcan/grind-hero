@@ -1,0 +1,64 @@
+attack: 101
+defense: 124
+exp: 103590
+exp_next_lvl: 105000
+hp: 407
+inventory:
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  equipped: false
+  lvl: 10
+  name: clip
+  type: body, item
+  value: 100
+- !!python/object:objects.Item
+  adjective: platinium
+  att_bonus: 0
+  def_bonus: 0
+  equipped: false
+  lvl: 9
+  name: vase
+  type: body, item
+  value: 90
+- !!python/object:objects.Item
+  adjective: pitchfork
+  att_bonus: 0
+  def_bonus: 0
+  equipped: false
+  lvl: 11
+  name: tomahawk
+  type: weapon
+  value: 110
+- !!python/object:objects.Item
+  adjective: bronze
+  att_bonus: 0
+  def_bonus: 0
+  equipped: false
+  lvl: 13
+  name: stone
+  type: body, item
+  value: 130
+- !!python/object:objects.Item
+  adjective: pen
+  att_bonus: 0
+  def_bonus: 0
+  equipped: false
+  lvl: 19
+  name: wand
+  type: weapon
+  value: 190
+- !!python/object:objects.Item
+  adjective: tin
+  att_bonus: 0
+  def_bonus: 0
+  equipped: false
+  lvl: 19
+  name: baseball cap
+  type: head
+  value: 190
+lvl: 13
+name: Zoltan
+next_lvl: 14
+shitcoins: 641551

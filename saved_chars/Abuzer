@@ -1,114 +1,122 @@
-attack: 429
-defense: 465
-exp: 120277.0
-exp_next_lvl: 121000
-hp: 1414
+attack: 512
+defense: 531
+exp: 2347003
+exp_next_lvl: 2415000
+hp: 1499
 inventory:
 - !!python/object:objects.Item
-  adjective: cloth
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 60
-  name: scarf
-  type: placeholder
-  value: 600
-- !!python/object:objects.Item
   adjective: steel
   att_bonus: 0
   def_bonus: 0
-  lvl: 55
-  name: amulet
-  type: placeholder
-  value: 550
-- !!python/object:objects.Item
-  adjective: platinium
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 51
-  name: badge
-  type: placeholder
-  value: 510
-- !!python/object:objects.Item
-  adjective: silver
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 61
-  name: stone
-  type: placeholder
-  value: 610
-- !!python/object:objects.Item
-  adjective: gold
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 66
+  lvl: 60
   name: ring
   type: placeholder
-  value: 660
-- !!python/object:objects.Item
-  adjective: steel
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 58
-  name: amulet
-  type: placeholder
-  value: 580
-- !!python/object:objects.Item
-  adjective: platinium
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 65
-  name: bucket
-  type: placeholder
-  value: 650
-- !!python/object:objects.Item
-  adjective: steel
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 60
-  name: amulet
-  type: placeholder
   value: 600
-- !!python/object:objects.Item
-  adjective: platinium
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 67
-  name: scarf
-  type: placeholder
-  value: 670
-- !!python/object:objects.Item
-  adjective: steel
-  att_bonus: 0
-  def_bonus: 0
-  lvl: 67
-  name: screw
-  type: placeholder
-  value: 670
 - !!python/object:objects.Item
   adjective: sturdy
   att_bonus: 0
   def_bonus: 0
+  lvl: 66
+  name: dice
+  type: placeholder
+  value: 660
+- !!python/object:objects.Item
+  adjective: silver
+  att_bonus: 0
+  def_bonus: 0
   lvl: 62
-  name: screw
+  name: dice
   type: placeholder
   value: 620
 - !!python/object:objects.Item
-  adjective: bronze
+  adjective: shitty
   att_bonus: 0
   def_bonus: 0
-  lvl: 55
-  name: screw
+  lvl: 64
+  name: clip
   type: placeholder
-  value: 550
+  value: 640
 - !!python/object:objects.Item
   adjective: gold
   att_bonus: 0
   def_bonus: 0
   lvl: 66
-  name: stone
+  name: badge
   type: placeholder
   value: 660
-lvl: 61
+- !!python/object:objects.Item
+  adjective: steel
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 67
+  name: stone
+  type: placeholder
+  value: 670
+- !!python/object:objects.Item
+  adjective: iron
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 67
+  name: scarf
+  type: placeholder
+  value: 670
+- !!python/object:objects.Item
+  adjective: leather
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 74
+  name: amulet
+  type: placeholder
+  value: 740
+- !!python/object:objects.Item
+  adjective: steel
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 69
+  name: bucket
+  type: placeholder
+  value: 690
+- !!python/object:objects.Item
+  adjective: bronze
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 72
+  name: screw
+  type: placeholder
+  value: 720
+- !!python/object:objects.Item
+  adjective: iron
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 63
+  name: clip
+  type: placeholder
+  value: 630
+- !!python/object:objects.Item
+  adjective: silver
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 71
+  name: amulet
+  type: placeholder
+  value: 710
+- !!python/object:objects.Item
+  adjective: sturdy
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 70
+  name: screw
+  type: placeholder
+  value: 700
+- !!python/object:objects.Item
+  adjective: shitty
+  att_bonus: 0
+  def_bonus: 0
+  lvl: 77
+  name: bucket
+  type: placeholder
+  value: 770
+lvl: 68
 name: Abuzer
-next_lvl: 62
-shitcoins: 123999
+next_lvl: 69
+shitcoins: 2589123
