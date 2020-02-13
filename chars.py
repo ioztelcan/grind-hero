@@ -21,19 +21,7 @@ class Hero():
         self.defense = random.randint(10,20)
         self.shitcoins = 0
         self.inventory = []
-
-        self.helm = None
-        self.weapon = None
-        self.armor = None
-        
-    def print_stats(self):
-        print ("Name: {}".format(self.name))
-        print ("Lvl: {}".format(self.lvl))
-        print ("Next Lvl: {}".format(self.next_lvl))
-        print ("Exp: {}".format(self.exp))
-        print ("HP : {}".format(self.hp))
-        print ("Att: {}".format(self.attack))
-        print ("Def: {}".format(self.defense))
+        self.equipped = {"weapon":None, "head": None, "body":None}
     
     def save_info(self):
         info = self.__dict__

@@ -10,10 +10,10 @@ class Item():
         self.adjective = random.choice(list(open(config.ITEM_ADJ_LIST))).strip("\n")
         self.lvl = max(1, random.randint(lvl - 5, lvl + 5)) 
         self.value = self.lvl * 10
-        self._set_type()
         self.equipped = False
         self.att_bonus = 0
         self.def_bonus = 0
+        self._set_type()
 
     def _set_type(self):
         random.seed()

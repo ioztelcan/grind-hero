@@ -129,6 +129,15 @@ def update_inventory_panel(hero):
         inventory_panel.write(inventory_panel.start_row + 1 + i,inventory_panel.start_col,"{} {}".format(item.adjective, item.name))
         i = i + 1
 
+def update_equipped_panel(hero):
+    i = 0
+    for item in hero.equipped:
+        if hero.equipped[item] is not None:
+            equipped_panel.write(equipped_panel.start_row + i,equipped_panel.start_col,"{} : {} {}".format(item, hero.equipped[item].adjective, hero.equipped[item].name))
+        else:
+            equipped_panel.write(equipped_panel.start_row + i, equipped_panel.start_col, "{} : ".format(item))
+        i = i + 1
+
 def log(string):
     log_panel.clear()
     log_panel.write(log_panel.start_row, log_panel.start_col, string)

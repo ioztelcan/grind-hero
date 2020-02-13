@@ -7,6 +7,26 @@ import yaml
 import curses
 import logging
 
+def equip(hero, item):
+    util.debug_log("Equipping {} {} lvl:{} val:{} type:{}".format(item.adjective, item.name, item.lvl, item.value, item.type))
+    if item.type == "weapon":
+        if hero.equipped["weapon"] is None or hero.equipped["weapon"].lvl < item.lvl:
+            hero.equipped["weapon"] = item
+            util.debug_log("Equipped: {}".format(item))
+            return True
+    if item.type == "head":
+        if hero.equipped["head"] is None or hero.equipped["head"].lvl < item.lvl:
+            hero.equipped["head"] = item
+            util.debug_log("Equipped: {}".format(item))
+            return True
+    if item.type == "body":
+        if hero.equipped["body"] is None or hero.equipped["body"].lvl < item.lvl:
+            hero.equipped["body"] = item
+            util.debug_log("Equipped: {}".format(item))
+            return True
+    util.debug_log("Not equipped.")
+    return False
+
 def encounter(hero):
     monster = chars.Mob(hero.lvl)
     util.log("Executing a(n) {} {}!".format(monster.adjective, monster.name))
@@ -27,10 +47,15 @@ def encounter(hero):
     util.debug_log("- {} shitcoins".format(monster.shitcoins))
     for i in range(monster.loot_amount):
         loot = objects.Item(monster.lvl)
-        hero.inventory.append(loot)
-        tui.update_inventory_panel(hero)
-        util.debug_log("- {} {} lvl:{} val:{}".format(loot.adjective, loot.name, loot.lvl, loot.value))
+        if loot.type == "item":
+            hero.inventory.append(loot)
+        if equip(hero, loot) is False:
+            hero.inventory.append(loot)
 
+        tui.update_equipped_panel(hero)
+        tui.update_inventory_panel(hero)
+        util.debug_log("- {} {} lvl:{} val:{} type:{}".format(loot.adjective, loot.name, loot.lvl, loot.value, loot.type))
+        util.debug_log("- Hero equipped {} ".format(hero.equipped))
 
 def go_to_dungeon(hero):
     util.log("Going to a dungeon.")
@@ -78,6 +103,7 @@ def bootstrap():
     scr = tui.init()
     tui.update_stats_panel(hero)
     tui.update_inventory_panel(hero)
+    tui.update_equipped_panel(hero)
 
     def sigint_handler(sig, frame):
         util.log("Saving info, exiting game.")
