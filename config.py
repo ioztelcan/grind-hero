@@ -2,7 +2,7 @@ SAVE_LOCATION = "saved_chars/"
 DATA_LOCATION = "data/"
 LOGS_LOCATION = "logs/"
 
-ITEM_TYPES = ["weapon", "head", "body, item"]
+ITEM_TYPES = ["weapon", "head", "body", "item"]
 
 WEAPONS_LIST = DATA_LOCATION + "weapons"
 WEAPON_ADJ_LIST = DATA_LOCATION + "weapon-adj"
