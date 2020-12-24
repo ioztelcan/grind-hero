@@ -130,6 +130,7 @@ def update_inventory_panel(hero):
         i = i + 1
 
 def update_equipped_panel(hero):
+    equipped_panel.clear()
     i = 0
     for item in hero.equipped:
         if hero.equipped[item] is not None:
